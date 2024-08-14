@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css/style.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <a href="#" rel="">
+            <img src="./assets/logo.svg" alt="Logo Alura" class="logo">
+        </a>
+    </header>
+    <!-- Principal -->
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar"  placeholder="Ingrese el texto aqui"></textarea>
+            <div class="encriptador_aviso">
+                <img src="./assets/aviso.svg" alt="Imagen aviso" class="img_aviso">
+                <p class="texto_aviso">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="encriptador_contenedor">
+                <button type="submit" class="btn_encriptar" >Encriptar!</button>
+                <button type="submit" class="btn_desencriptar">Desencriptar!</button>
+
+            </div>
+        </section>
+        <section class="tarjeta">
+            <div class="tarjeta_contenedor">
+                <img src="./assets/muñeco.svg" alt="Imagen Muñeco" class="img_muñeco">
+                <p class="texto_uno">Ningún mensaje fue encontrado</p>
+                <p class="texto_dos">Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <textarea type="mensaje" class="evaluar" readonly ></textarea>
+            <button type="submit" class="btn_copiar">Copiar</button>
+        </section>
+    </main>
+    <!-- Pie de pagina -->
+    <footer>
+        <p class="copyright">&copy; copyright2024 - Encriptador de texto - Desarrollado por MattDeveloper</p>
+        <a href="#" rel="">
+            <img src="./assets/linkedin.svg" alt="Logo linkedin" class="linkedin">
+        </a>
+        <a href="#" rel="">
+            <img src="./assets/github.svg" alt="Logo GitHub" class="github">
+        </a>
+    
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
