@@ -1,4 +1,3 @@
-Encriptador de Texto
 Este proyecto es parte del cursado de Oracle y consiste en un encriptador de texto que transforma las vocales en secuencias específicas de caracteres, y permite desencriptar el texto 
 transformado. El proyecto se ha desarrollado usando HTML, CSS, y JavaScript.
 
