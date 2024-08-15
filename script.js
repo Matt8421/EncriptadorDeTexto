@@ -8,6 +8,7 @@ const btnCopiar = document.querySelector(".btn_copiar");
 const btnDesencriptar = document.querySelector(".btn_desencriptar");
 
 
+
 /* Boton de Encriptar */
 btnEncriptar.addEventListener("click", e =>{
     e.preventDefault();
@@ -30,6 +31,7 @@ btnEncriptar.addEventListener("click", e =>{
         aviso.style.color = "#ffff";
         aviso.style.fontWeight = "800";
         aviso.textContent = "No debe tener acentos y caracteres especiales";
+
 
         setTimeout(()=>{
             aviso.removeAttribute("style");
@@ -57,6 +59,7 @@ btnEncriptar.addEventListener("click", e =>{
         respuesta.innerHTML = texto; /* Inner html es una propiedad q nos permite imprimir y leer nuestro msj dentro de txtevaluar */
         btnCopiar.style.visibility = "inherit";
         contenido.remove();
+        
     }
 
 }); /* addEventListener  Nos previene de que el boton se ejecute por defecto al hacer un click en el .
